@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "name": "congaconvitconbo@gmail.com",
+      "email": "coccc1999@gmail.com",
+      "phone": "348711727",
+      "address": "Thành phố Hồ Chí Minh",
+      "service": "Tea"
+    },
+    {
+      "id": 3,
+      "name": "coccc1999@gmail.com",
+      "email": "coccc1999@gmail.com",
+      "phone": "348711727",
+      "address": "Thành phố Hồ Chí Minh",
+      "service": "Coffee, Tea"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "fullname": "Quang",
+      "email": "coccc1999@gmail.com",
+      "password": "123456",
+      "address": "Thành phố Hồ Chí Minh",
+      "phone": "348711727",
+      "id": 3
+    }
+  ]
+}

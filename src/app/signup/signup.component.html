@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="card">
+          <h1>SignUp to see amazing things</h1>
+          <form [formGroup]="formValue">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address:</label>
+              <input type="email" formControlName="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required />
+              <div class="show-err"></div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password:</label>
+              <input type="password" formControlName="password" class="form-control" id="exampleInputPassword1" required>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputFullname1" class="form-label">Full Name:</label>
+                <input type="text" formControlName="fullname" class="form-control" id="exampleInputFullname1" required />
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPhone1" class="form-label">Phone:</label>
+                <input type="text" formControlName="phone" class="form-control" id="exampleInputPhone1" required/>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputAddress1" class="form-label">Address:</label>
+                <input type="text" formControlName="address" class="form-control" id="exampleInputAddress1" required/>
+              </div>
+            <button type="submit" class="btn btn-primary" (click)="signup(formValue.value)">Sign up</button>
+          </form>
+          <a routerLink="/login">Already have an account ?</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  

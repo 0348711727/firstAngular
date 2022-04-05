@@ -1,0 +1,10 @@
+.card {
+    width: 90%;
+    position: relative;
+    top: 10%;
+    left: 40%;   
+    padding: 20px;
+}
+.form-control {
+    width: 90%;
+}
